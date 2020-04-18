@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "next/babel",
+        [
+            "@babel/env",
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "styled-jsx/babel",
+            {
+                "optimizeForSpeed": true
+            }
+        ]
+    ]
+}
